@@ -107,5 +107,31 @@ def main():
     # cv2.waitKey(0)
   return decoded_lp
 
+class Recongnizer:
+  def __init__(self):
+    self.graph=load_graph('weights/graph.pb.frozen')
+    import json
+    with open('chinese_lp/charmap.json', 'r') as f:
+      self.r_vocab = json.load(f)
+    self.sess=tf.Session(graph=self.graph)
+
+  def predict_from_file(self,f):
+    img=cv2.imread(f)
+    return self.predict_from_file(img)
+  def predict(self,img):
+    graph=self.graph
+    input = graph.get_tensor_by_name("import/input:0")
+    output = graph.get_tensor_by_name("import/d_predictions:0")
+
+    img = cv2.resize(img, (94, 24))
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    img = np.float32(img)
+    img = np.multiply(img, 1.0 / 255.0)
+
+    # with tf.Session(graph=graph) as sess:
+    results = self.sess.run(output, feed_dict={input: [img]})
+    decoded_lp = decode_beams(results, r_vocab=self.r_vocab)[0]
+    return decoded_lp
+
 if __name__ == "__main__":
   main()

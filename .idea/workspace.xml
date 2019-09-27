@@ -726,15 +726,24 @@
       <change beforePath="$PROJECT_DIR$/../image_retrieval/tools/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../image_retrieval/tools/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../image_retrieval/tools/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../image_retrieval/tools/train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.pylintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.pylintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chinese_lp/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/chinese_lp/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/demo/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/demo/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/demo/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/demo/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/demo/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infer.py" beforeDir="false" afterPath="$PROJECT_DIR$/infer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lpr/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lpr/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lpr/networks/lprnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/lpr/networks/lprnet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lpr/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/lpr/trainer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lpr/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/lpr/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/eval.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/export.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/export.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/infer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/infer.py" afterDir="false" />
@@ -855,7 +864,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RJqsXkszbxM1qbIp7cgFM6yFgQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -866,6 +875,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/tmp" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/chinese_lp" />
       <recent name="$PROJECT_DIR$" />

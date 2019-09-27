@@ -74,7 +74,7 @@ class Yolo_test(Evaluator):
         plateStr=province+alpha+''.join(ad)
         return plateStr
 
-
+Detector=Yolo_test
 
 
 
